@@ -1,29 +1,26 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Tue Oct 10 2023 07:09:06 GMT+0000 (Coordinated Universal Time)|
-|**App Generator**<br>@sap/generator-fiori-freestyle|
+|**Generation Date and Time**<br>Tue Oct 10 2023 07:52:08 GMT+0000 (Coordinated Universal Time)|
+|**App Generator**<br>@sap/generator-fiori-elements|
 |**App Generator Version**<br>1.11.1|
 |**Generation Platform**<br>SAP Business Application Studio|
-|**Template Used**<br>3worklistodatav4|
+|**Template Used**<br>Worklist Page V4|
 |**Service Type**<br>Local Cap|
 |**Service URL**<br>http://localhost:4004/odata/v4/catalog/
 |**Module Name**<br>interaction_items|
-|**Application Title**<br>Interaction Items List|
+|**Application Title**<br>Interaction Items|
 |**Namespace**<br>|
-|**UI5 Theme**<br>sap_fiori_3_dark|
+|**UI5 Theme**<br>sap_horizon_dark|
 |**UI5 Version**<br>1.119.0|
 |**Enable Code Assist Libraries**<br>False|
 |**Enable TypeScript**<br>False|
 |**Add Eslint configuration**<br>False|
-|**Object collection**<br>Interactions_Items|
-|**Object collection key**<br>INTHeader_ID|
-|**Object ID**<br>INTHeader_ID|
-|**Object number**<br>INTHeader_ID|
+|**Main Entity**<br>Interactions_Items|
 
 ## interaction_items
 
-Interaction Items List
+Interaction Items
 
 ### Starting the generated app
 

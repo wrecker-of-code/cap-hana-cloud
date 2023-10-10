@@ -34,5 +34,8 @@
   },
   "devDependencies": {
     "@sap/ux-specification": "^1.108.15"
-  }
+  },
+  "sapux": [
+    "app/interaction_items"
+  ]
 }
