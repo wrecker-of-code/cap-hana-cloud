@@ -6,12 +6,16 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "@sap/audit-logging": "^5.7.1",
     "@sap/cds": "^7",
     "@sap/cds-hana": "^2",
-    "express": "^4"
+    "@sap/xsenv": "^4.0.0",
+    "@sap/xssec": "^3.3.5",
+    "express": "^4",
+    "passport": "^0.6.0"
   },
   "scripts": {
-    "start": "cds-serve",
+    "start": "NODE_ENV=production cds-serve",
     "watch-interaction_items": "cds watch --open interaction_items/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "cds": {
@@ -29,6 +33,9 @@
     "requires": {
       "db": {
         "kind": "hana-cloud"
+      },
+      "uaa": {
+        "kind": "xsuaa"
       }
     }
   },
